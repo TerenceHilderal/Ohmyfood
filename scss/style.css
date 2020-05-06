@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  font-size: 2.5rem;
+  color: #fcca46;
+  background: #579C87;
+  border-bottom: 1px solid #fcca46;
+}
+
+.allmenus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 900px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  height: 400px;
+  width: 300px;
+  -webkit-box-shadow: 1px 1px 6px grey;
+          box-shadow: 1px 1px 6px grey;
+}
+
+.menu1 {
+  background: #fcdfdb;
+}
+
+.menu1 a {
+  text-decoration: none;
+  height: 400px;
+  width: 300px;
+}
+
+.menu2 {
+  background: #fff5fe;
+}
+
+.menu3 {
+  background: #f9f9f9;
+}
+
+.menu4 {
+  background: #fdfffd;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  max-width: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-bottom: 100px;
+  background: #579C87;
+  color: #fcca46;
+}
+
+.button p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #579C87;
+  font-size: 2rem;
+  width: 100%;
+  border-top: 1px solid #fcca46;
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #fcca46;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+// HEADER
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 120px;
+    background:#579C87;
+    border-bottom: 1px solid #fcca46;
+        a{
+            font-size:4rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fcca46;
+            text-decoration: none;
+        }
+}
+
+// SECTION MENUS 
+
+.mainmenu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center; 
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    height: 400px;
+    width: 250px;
+    box-shadow: 1px 1px 6px grey;
+}   
+.mainmenu a{
+   text-decoration: none;
+   color: black;
+}
+a :hover{
+    font-size: 200%;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+// STYLE LA NOTE ENCHANTEE ///////////////////////////////////////////////////////////////////////////////////
+.style1{  
+    background: #fcdfdb; 
+    padding: 3rem;
+    font-size: 1.5rem;
+    color: #582f34;
+    p{
+        font-family: 'Devonshire', cursive ;
+    }
+    .icon{
+        background:-webkit-gradient(linear,left top,right bottom,from(red),to(orange));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+}
+
+
+// STYLE LE CHIC A LA FRANCAISE ///////////////////////////////////////////////////////////////////////////////////
+.style2{ 
+    background: #fff5fe;
+    font-family: 'Kurale', serif;
+    padding: 3rem;
+    font-size: 1.5rem;
+    h3{
+        color:#c77412;
+    }
+
+    .title2{
+        text-align: center;
+        background:-webkit-gradient(linear,left top,right bottom,from(#c77412),to(#905bfd));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+// STYLE MENU LE DELICE DES PAPILLES ///////////////////////////////////////////////////////////////////////////////////
+.style3{
+    background: #f9f9f9;
+    font-family: 'Parisienne', cursive;
+    padding: 3rem;
+    font-size: 1.4rem;
+    h3{
+        color:#2b91f8 ;
+    }
+    .title3{
+        background: -webkit-gradient(linear,left top,right bottom,from(#0645e5),to(#acd3f9));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+// STYLE MENU LA PALETTE DU GOUT ///////////////////////////////////////////////////////////////////////////////////
+.style4{
+    background: #fdfffd;
+    font-family: 'Kaushan Script', cursive;
+    padding: 3rem;
+    font-size: 1.4rem;
+    h3{
+        color:#5eae4b ;
+    }
+    .title4{
+        background:-webkit-gradient(linear,left top,right bottom,from(#5eae4b),to(#c8fe94));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+// COMING SOON
+.button{
+    display: flex;
+    border-radius: 15px;
+    max-width: 350px;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 100px;
+    background:#579C87;
+    color:#fcca46 ;
+        p{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            margin: 1rem;
+        }
+}
+.dot{
+    -webkit-animation: loading 2s alternate infinite ease;
+}
+.dot1{
+    -webkit-animation: loading 2s alternate infinite ease;   
+}
+.dot2{
+    -webkit-animation: loading 2s alternate infinite ease;   
+}
+
+// SECTION FOOTER
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #579C87;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border-top: 1px solid #fcca46;
+    position: fixed;
+    bottom: 0;  
+}
+footer a{
+    margin: 1rem;
+    text-decoration: none;
+    color: #fcca46;
+}
+
+footer a:hover{
+    -webkit-animation : wiggle 0.1s alternate infinite ease-in-out;
+}
+// keyframes///////////////////////
+
+@-webkit-keyframes loading{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes wiggle{
+    0%{
+        -webkit-transform: rotate(5deg);
+    }
+    50%{
+        -webkit-transform-origin: center;
+    }
+    100%{
+        -webkit-transform : rotate(-5deg);
+    }
+}
+
+
+// CARTE NOTE ENCHANTEE////////////////////////////////////////////////////////////////////////////////////
+
+
+.title_enchantée {
+    display: flex;
+    justify-content: center; }
+  
+.positioncarte {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8rem;
+ } 
+.carte{
+    margin-top: 2rem;
+    width: 750px;
+    box-shadow: 1px 1px 6px grey; 
+
+        .entete {
+            display: flex;
+            flex-direction: column;
+        
+            h3{
+                text-align: center;
+                font-size: 2rem;
+                font-family: 'Devonshire', cursive ;
+            }
+        }      
+        .icon {      
+            display: flex;
+            justify-content: center;
+        }
+
+        h4,ul{
+            text-align: center;
+            font-family: 'Kalam', cursive;
+            padding: 0;
+            margin: 2rem;
+        }
+        h4 span{
+            position:relative;
+            text-align:center;
+            
+          }
+          
+          h4 span::before {
+              margin:auto;
+              content: '';
+              position: absolute;
+              border-bottom: 3px solid #333;
+              bottom: 0;
+              width: 0%;
+              background: currentColor;
+              transition:1s;
+          }
+          h4 span:hover::before {
+              width:100%;
+          }
+        
+        li {
+            display: flex;
+            justify-content: space-between;
+        }
+       
+}
+.borduregauche{
+    width: 35%;
+    vertical-align:-40px;
+}
+.borduredroite{
+    width: 35%;
+    vertical-align:-40px;
+}
+
+ul{
+    font-size: 1.4rem;
+}      
+.endmenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem; 
+    .end-icon {
+    display: flex;
+    align-items: center;
+    margin: 0.8rem;
+ }
+}    
+
+// CARTE LE CHIC A LA FRANCAISE//////////////////////////////////////////
+.entete2{
+    text-align: center;
+    h3{
+        font-family:'Sacramento', cursive;
+        font-size: 4rem; 
+    }
+}
+.style2{
+    
+    .begin{
+        color: #c67412;
+    }
+    .middle{
+        color: #a56799;
+    }
+    .end{
+        color: #6e4ccc;
+    }
+    h4,ul{
+        font-family: 'Crimson Text', serif;
+    }
+}
+
+
+// CARTE LE DELICE DES PAPILLES/////////////////////////////////////////////
+
+.entete3{
+    text-align: center;
+
+    h3{
+        font-size: 4rem;
+    }
+}
+
+.style3 {
+
+    h4,ul{
+        font-family: 'Bad Script', cursive;
+}
+}
+
+
+
+// CARTE LA PALETTE DU GOUT//////////////////
+
+.entete4{
+    text-align: center;
+    h3{
+        font-size: 4rem;
+    }
+}
+
+.style4{
+
+    h4,ul{
+        font-family: 'Bad Script', cursive;
+}
+}
+
+
+// MEDIA QUERIES////////////////////////////////////////////////////////
+
+@media screen and (max-width:767px){
+
+    main{
+        width:auto;
+        justify-content: center;
+    }
+    
+    .mainmenu{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        a{
+            width: auto;
+        }
+    }
+    .menu{
+        margin: 1rem 0 2rem 0;
+    }
+    header{
+        width:auto;
+    }
+    .button{
+       margin-bottom: 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;    
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1200px){
+    .mainmenu{
+        width: auto;
+    }
+}
+
