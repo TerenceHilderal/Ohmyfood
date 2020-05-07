@@ -44,7 +44,7 @@ header{
    color: black;
 }
 a :hover{
-    font-size: 200%;
+    font-size: 180%;
     transition: 0.5s;
     opacity: 0.6;
 }
@@ -52,7 +52,7 @@ a :hover{
 .style1{  
     background: #fcdfdb; 
     padding: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #582f34;
     p{
         font-family: 'Devonshire', cursive ;
@@ -134,10 +134,10 @@ a :hover{
     -webkit-animation: loading 2s alternate infinite ease;
 }
 .dot1{
-    -webkit-animation: loading 2s alternate infinite ease;   
+    -webkit-animation: loading 4s alternate infinite ease;   
 }
 .dot2{
-    -webkit-animation: loading 2s alternate infinite ease;   
+    -webkit-animation: loading 6s alternate infinite ease;   
 }
 
 // SECTION FOOTER
@@ -250,11 +250,11 @@ footer a:hover{
        
 }
 .borduregauche{
-    width: 35%;
+    width: 30%;
     vertical-align:-40px;
 }
 .borduredroite{
-    width: 35%;
+    width: 30%;
     vertical-align:-40px;
 }
 
