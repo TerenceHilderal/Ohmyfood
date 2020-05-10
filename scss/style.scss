@@ -1,19 +1,19 @@
 body{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 // HEADER
 header{
     display: flex;
     justify-content: center;
-    width: 100%;
     align-items: center;
     height: 120px;
     background:#579C87;
     border-bottom: 1px solid #fcca46;
         a{
             font-size:4rem;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Righteous', cursive;
             color: #fcca46;
             text-decoration: none;
         }
@@ -24,9 +24,8 @@ header{
 .mainmenu{
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
     justify-content: center; 
-    margin: auto;
+    margin:2rem;
 }
 
 .menu{
@@ -43,11 +42,14 @@ header{
    text-decoration: none;
    color: black;
 }
+
 a :hover{
-    font-size: 200%;
+    font-size: 200%;;
     transition: 0.5s;
     opacity: 0.6;
 }
+
+
 // STYLE LA NOTE ENCHANTEE ///////////////////////////////////////////////////////////////////////////////////
 .style1{  
     background: #fcdfdb; 
@@ -63,7 +65,6 @@ a :hover{
         -webkit-text-fill-color: transparent; 
     }
 }
-
 
 // STYLE LE CHIC A LA FRANCAISE ///////////////////////////////////////////////////////////////////////////////////
 .style2{ 
@@ -118,7 +119,7 @@ a :hover{
 .button{
     display: flex;
     border-radius: 15px;
-    max-width: 350px;
+    width: 350px;
     justify-content: center;
     margin:auto;
     margin-bottom: 100px;
@@ -131,16 +132,18 @@ a :hover{
         }
 }
 .dot{
-    -webkit-animation: loading 2s alternate infinite ease;
+    -webkit-animation: loading 2s ease-in-out infinite;
 }
 .dot1{
-    -webkit-animation: loading 2s alternate infinite ease;   
+    -webkit-animation: loading 2s  ease-in-out infinite ;
+    animation-delay: 0.4s;   
 }
 .dot2{
-    -webkit-animation: loading 2s alternate infinite ease;   
+    -webkit-animation: loading 2s ease-in-out infinite; 
+    animation-delay: 0.8s;  
 }
 
-// SECTION FOOTER
+// SECTION FOOTER//////////////////////////////////////////////////////////////////
 footer{
     display: flex;
     justify-content: space-between;
@@ -161,7 +164,7 @@ footer a{
 footer a:hover{
     -webkit-animation : wiggle 0.1s alternate infinite ease-in-out;
 }
-// keyframes///////////////////////
+// KEYFRAMES//////////////////////////////////////////////////////////////////
 
 @-webkit-keyframes loading{
     0%{
@@ -184,14 +187,8 @@ footer a:hover{
     }
 }
 
+// STYLE DES CARTES////////////////////////////////////////////////////////////
 
-// CARTE NOTE ENCHANTEE////////////////////////////////////////////////////////////////////////////////////
-
-
-.title_enchantée {
-    display: flex;
-    justify-content: center; }
-  
 .positioncarte {
     display: flex;
     justify-content: center;
@@ -199,7 +196,6 @@ footer a:hover{
  } 
 .carte{
     margin-top: 2rem;
-    width: 750px;
     box-shadow: 1px 1px 6px grey; 
 
         .entete {
@@ -216,51 +212,63 @@ footer a:hover{
             display: flex;
             justify-content: center;
         }
-
         h4,ul{
             text-align: center;
             font-family: 'Kalam', cursive;
+            font-size: 1.3rem;
             padding: 0;
             margin: 2rem;
         }
-        h4 span{
+        h4 {
             position:relative;
-            text-align:center;
-            
-          }
-          
-          h4 span::before {
-              margin:auto;
-              content: '';
-              position: absolute;
-              border-bottom: 3px solid #333;
-              bottom: 0;
-              width: 0%;
-              background: currentColor;
-              transition:1s;
-          }
-          h4 span:hover::before {
-              width:100%;
+            text-align: justify;
+        }
+            h4::before {
+                margin:auto;
+                content: '';
+                position: absolute;
+                border-bottom: 3px solid #333;
+                bottom: 0;
+                width: 0%;
+                background: currentColor;
+                transition:1s;
+            }
+             
+               h4:hover::before {
+                width:100%;
           }
         
         li {
             display: flex;
             justify-content: space-between;
         }
+        .bordure{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // width: 800px;
+        }
+        
        
 }
-.borduregauche{
-    width: 35%;
-    vertical-align:-40px;
-}
-.borduredroite{
-    width: 35%;
-    vertical-align:-40px;
-}
 
-ul{
-    font-size: 1.4rem;
-}      
+
+// CARTE NOTE ENCHANTEE////////////////////////////////////////////////////////////////////////////////////
+
+
+.title_enchantée {
+    display: flex;
+    justify-content: center; }
+  
+ .icon-menu1gauche:before {
+    content: "\e901";
+    font-size: 2.3rem;
+  } 
+  .icon-menu1droite:before {
+    content: "\e900";
+    font-size: 2.5rem;
+  }
+         
 .endmenu {
     display: flex;
     justify-content: center;
@@ -295,6 +303,14 @@ ul{
         font-family: 'Crimson Text', serif;
     }
 }
+.icon-menu2droite:before {
+    content:"\e902";
+    font-size: 1.9rem;   
+  }
+.icon-menu2gauche:before {
+    content: "\e903";
+    font-size:1.9rem ;
+}  
 
 
 // CARTE LE DELICE DES PAPILLES/////////////////////////////////////////////
@@ -306,6 +322,14 @@ ul{
         font-size: 4rem;
     }
 }
+.icon-menu3droite:before {
+    content: "\e902";
+    font-size: 1.4rem;
+  }
+  .icon-menu3gauche:before {
+    content: "\e903";
+    font-size: 1.4rem;
+  } 
 
 .style3 {
 
@@ -316,7 +340,7 @@ ul{
 
 
 
-// CARTE LA PALETTE DU GOUT//////////////////
+// CARTE LA PALETTE DU GOUT////////////////////////////////////////////////////////////////////////////////////
 
 .entete4{
     text-align: center;
@@ -332,50 +356,66 @@ ul{
 }
 }
 
+h4{
+    display: flex;
+    align-items: center;
+}
+.icon-menu4droite:before {
+    content: "\e906";
+    font-size: 2rem;
+  }
+  .icon-menu4gauche:before {
+    content: "\e907";
+    font-size: 1.9rem;
+  }  
+
+
 
 // MEDIA QUERIES////////////////////////////////////////////////////////
 
 @media screen and (max-width:767px){
 
-    main{
-        width:auto;
-        justify-content: center;
-    }
-    
-    .mainmenu{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        align-items: center;
-        a{
-            width: auto;
-        }
-    }
-    .menu{
-        margin: 1rem 0 2rem 0;
-    }
-    header{
-        width:auto;
-    }
-    .button{
-       margin-bottom: 0;
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        align-items: center;    
-    }
-    li{
-        display: flex;
+    .positioncarte{
         flex-direction: column;
         margin: 1rem;
     }
+
+    .bordure{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li{
+        flex-direction: column;
+        margin: 1rem;
+    }
+    
+    .button{
+       margin-bottom:180px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}    
+@media only screen and (min-width: 1294px) {
+    
+    .mainmenu{
+        margin: auto;
+        width: 1000px;
+    }
 }
 
-@media only screen and (min-width: 768px) and (max-width:1200px){
-    .mainmenu{
-        width: auto;
+@media only screen and (min-width:1919px){
+    body{
+        width: 80%;
+        margin: auto;
+    }
+
+    footer{
+        width: 80%;
     }
 }
 
