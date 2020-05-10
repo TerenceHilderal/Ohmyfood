@@ -38,8 +38,8 @@ header {
   color: black; }
 
 a:hover article {
-  font-size: 250%;
-  transition: 0.2s;
+  font-size: 180%;
+  transition: 0.3s;
   opacity: 0.6; }
 
 .style1 {
@@ -62,7 +62,7 @@ a:hover article {
   font-family: 'Kurale', serif;
   padding: 3rem;
   font-size: 1.5rem; }
-  .style2 h3 {
+  .style2 h2 {
     color: #c77412; }
   .style2 .title2 {
     text-align: center;
@@ -75,7 +75,7 @@ a:hover article {
   font-family: 'Parisienne', cursive;
   padding: 3rem;
   font-size: 2rem; }
-  .style3 h3 {
+  .style3 h2 {
     color: #2b91f8; }
   .style3 .title3 {
     text-align: center;
@@ -88,7 +88,7 @@ a:hover article {
   font-family: 'Kaushan Script', cursive;
   padding: 3rem;
   font-size: 2rem; }
-  .style4 h3 {
+  .style4 h2 {
     color: #5eae4b; }
   .style4 .title4 {
     text-align: center;
