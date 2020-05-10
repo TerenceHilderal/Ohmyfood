@@ -37,9 +37,9 @@ header {
   text-decoration: none;
   color: black; }
 
-a :hover {
-  font-size: 200%;
-  transition: 0.5s;
+a:hover article {
+  font-size: 250%;
+  transition: 0.2s;
   opacity: 0.6; }
 
 .style1 {
@@ -49,10 +49,13 @@ a :hover {
   color: #582f34; }
   .style1 p {
     font-family: 'Devonshire', cursive; }
+  .style1 .icon-Capture-decran-2020-05-09-a-043410-2:before {
+    content: "\e908";
+    font-size: 4rem; }
   .style1 .icon {
     background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    color: transparent; }
 
 .style2 {
   background: #fff5fe;
@@ -65,31 +68,33 @@ a :hover {
     text-align: center;
     background: -webkit-gradient(linear, left top, right bottom, from(#c77412), to(#905bfd));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    color: transparent; }
 
 .style3 {
   background: #f9f9f9;
   font-family: 'Parisienne', cursive;
   padding: 3rem;
-  font-size: 1.4rem; }
+  font-size: 2rem; }
   .style3 h3 {
     color: #2b91f8; }
   .style3 .title3 {
+    text-align: center;
     background: -webkit-gradient(linear, left top, right bottom, from(#0645e5), to(#acd3f9));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    color: transparent; }
 
 .style4 {
   background: #fdfffd;
   font-family: 'Kaushan Script', cursive;
   padding: 3rem;
-  font-size: 1.4rem; }
+  font-size: 2rem; }
   .style4 h3 {
     color: #5eae4b; }
   .style4 .title4 {
+    text-align: center;
     background: -webkit-gradient(linear, left top, right bottom, from(#5eae4b), to(#c8fe94));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    color: transparent; }
 
 .button {
   display: flex;
@@ -257,11 +262,6 @@ footer a:hover {
 
 .style3 h4, .style3 ul {
   font-family: 'Bad Script', cursive; }
-
-.entete4 {
-  text-align: center; }
-  .entete4 h3 {
-    font-size: 4rem; }
 
 .style4 h4, .style4 ul {
   font-family: 'Bad Script', cursive; }

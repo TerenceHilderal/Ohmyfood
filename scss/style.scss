@@ -39,13 +39,13 @@ header{
     box-shadow: 1px 1px 6px grey;
 }   
 .mainmenu a{
-   text-decoration: none;
+    text-decoration: none;
    color: black;
 }
 
-a :hover{
-    font-size: 200%;;
-    transition: 0.5s;
+a:hover article{
+    font-size: 250%;
+    transition: 0.2s;
     opacity: 0.6;
 }
 
@@ -59,12 +59,17 @@ a :hover{
     p{
         font-family: 'Devonshire', cursive ;
     }
+    .icon-Capture-decran-2020-05-09-a-043410-2:before {
+        content: "\e908";
+        font-size: 4rem;
+      }
     .icon{
         background:-webkit-gradient(linear,left top,right bottom,from(red),to(orange));
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
+        color: transparent; 
     }
 }
+
 
 // STYLE LE CHIC A LA FRANCAISE ///////////////////////////////////////////////////////////////////////////////////
 .style2{ 
@@ -80,7 +85,7 @@ a :hover{
         text-align: center;
         background:-webkit-gradient(linear,left top,right bottom,from(#c77412),to(#905bfd));
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 }
 // STYLE MENU LE DELICE DES PAPILLES ///////////////////////////////////////////////////////////////////////////////////
@@ -88,14 +93,15 @@ a :hover{
     background: #f9f9f9;
     font-family: 'Parisienne', cursive;
     padding: 3rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     h3{
         color:#2b91f8 ;
     }
     .title3{
+        text-align: center;
         background: -webkit-gradient(linear,left top,right bottom,from(#0645e5),to(#acd3f9));
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 }
 // STYLE MENU LA PALETTE DU GOUT ///////////////////////////////////////////////////////////////////////////////////
@@ -103,14 +109,15 @@ a :hover{
     background: #fdfffd;
     font-family: 'Kaushan Script', cursive;
     padding: 3rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     h3{
         color:#5eae4b ;
     }
     .title4{
+        text-align: center;
         background:-webkit-gradient(linear,left top,right bottom,from(#5eae4b),to(#c8fe94));
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 }
 
@@ -246,7 +253,7 @@ footer a:hover{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            // width: 800px;
+            
         }
         
        
@@ -341,13 +348,6 @@ footer a:hover{
 
 
 // CARTE LA PALETTE DU GOUT////////////////////////////////////////////////////////////////////////////////////
-
-.entete4{
-    text-align: center;
-    h3{
-        font-size: 4rem;
-    }
-}
 
 .style4{
 
