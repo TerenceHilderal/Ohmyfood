@@ -3,6 +3,11 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+// MIXINS
+@mixin padding-fontsize{
+    padding: 3rem;
+    font-size: 2rem;
+}
 // HEADER
 header{
     display: flex;
@@ -44,7 +49,7 @@ header{
 }
 
 a:hover article{
-    font-size: 180%;    
+    font-size: 220%;    
     transition: 0.3s;
     opacity: 0.6;
 }
@@ -53,8 +58,7 @@ a:hover article{
 // STYLE LA NOTE ENCHANTEE ///////////////////////////////////////////////////////////////////////////////////
 .style1{  
     background: #fcdfdb; 
-    padding: 3rem;
-    font-size: 1.5rem;
+    @include padding-fontsize;
     color: #582f34;
     p{
         font-family: 'Devonshire', cursive ;
@@ -68,6 +72,10 @@ a:hover article{
         -webkit-background-clip: text;
         color: transparent; 
     }
+    h2{
+        font-size: 2rem;
+    }
+
 }
 
 
@@ -75,8 +83,7 @@ a:hover article{
 .style2{ 
     background: #fff5fe;
     font-family: 'Kurale', serif;
-    padding: 3rem;
-    font-size: 1.5rem;
+    @include padding-fontsize;
     h2{
         color:#c77412;
     }
@@ -92,8 +99,7 @@ a:hover article{
 .style3{
     background: #f9f9f9;
     font-family: 'Parisienne', cursive;
-    padding: 3rem;
-    font-size: 2rem;
+    @include padding-fontsize;
     h2{
         color:#2b91f8 ;
     }
@@ -108,8 +114,7 @@ a:hover article{
 .style4{
     background: #fdfffd;
     font-family: 'Kaushan Script', cursive;
-    padding: 3rem;
-    font-size: 2rem;
+    @include padding-fontsize;
     h2{
         color:#5eae4b ;
     }
@@ -254,9 +259,7 @@ footer a:hover{
             justify-content: space-between;
             align-items: center;
             
-        }
-        
-       
+        }   
 }
 
 
@@ -288,13 +291,7 @@ footer a:hover{
 }    
 
 // CARTE LE CHIC A LA FRANCAISE//////////////////////////////////////////
-.entete2{
-    text-align: center;
-    h3{
-        font-family:'Sacramento', cursive;
-        font-size: 4rem; 
-    }
-}
+
 .style2{
     
     .begin{
@@ -322,13 +319,6 @@ footer a:hover{
 
 // CARTE LE DELICE DES PAPILLES/////////////////////////////////////////////
 
-.entete3{
-    text-align: center;
-
-    h3{
-        font-size: 4rem;
-    }
-}
 .icon-menu3droite:before {
     content: "\e902";
     font-size: 1.4rem;
@@ -356,10 +346,6 @@ footer a:hover{
 }
 }
 
-h4{
-    display: flex;
-    align-items: center;
-}
 .icon-menu4droite:before {
     content: "\e906";
     font-size: 2rem;

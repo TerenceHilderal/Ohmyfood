@@ -38,14 +38,14 @@ header {
   color: black; }
 
 a:hover article {
-  font-size: 180%;
+  font-size: 220%;
   transition: 0.3s;
   opacity: 0.6; }
 
 .style1 {
   background: #fcdfdb;
   padding: 3rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #582f34; }
   .style1 p {
     font-family: 'Devonshire', cursive; }
@@ -56,12 +56,14 @@ a:hover article {
     background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
     -webkit-background-clip: text;
     color: transparent; }
+  .style1 h2 {
+    font-size: 2rem; }
 
 .style2 {
   background: #fff5fe;
   font-family: 'Kurale', serif;
   padding: 3rem;
-  font-size: 1.5rem; }
+  font-size: 2rem; }
   .style2 h2 {
     color: #c77412; }
   .style2 .title2 {
@@ -221,12 +223,6 @@ footer a:hover {
     align-items: center;
     margin: 0.8rem; }
 
-.entete2 {
-  text-align: center; }
-  .entete2 h3 {
-    font-family: 'Sacramento', cursive;
-    font-size: 4rem; }
-
 .style2 .begin {
   color: #c67412; }
 
@@ -247,11 +243,6 @@ footer a:hover {
   content: "\e903";
   font-size: 1.9rem; }
 
-.entete3 {
-  text-align: center; }
-  .entete3 h3 {
-    font-size: 4rem; }
-
 .icon-menu3droite:before {
   content: "\e902";
   font-size: 1.4rem; }
@@ -265,10 +256,6 @@ footer a:hover {
 
 .style4 h4, .style4 ul {
   font-family: 'Bad Script', cursive; }
-
-h4 {
-  display: flex;
-  align-items: center; }
 
 .icon-menu4droite:before {
   content: "\e906";
