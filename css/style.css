@@ -255,6 +255,15 @@ footer a:hover {
   content: "\e903";
   font-size: 1.4rem; }
 
+.blue1 {
+  color: #0228dd; }
+
+.blue2 {
+  color: #0670f3; }
+
+.blue3 {
+  color: #229df9; }
+
 .style3 h4, .style3 ul {
   font-family: 'Bad Script', cursive; }
 
