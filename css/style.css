@@ -45,7 +45,7 @@ a:hover article {
 .style1 {
   background: #fcdfdb;
   padding: 3rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #582f34; }
   .style1 p {
     font-family: 'Devonshire', cursive; }
@@ -63,10 +63,10 @@ a:hover article {
   background: #fff5fe;
   font-family: 'Kurale', serif;
   padding: 3rem;
-  font-size: 2rem; }
+  font-size: 1.6rem; }
   .style2 h2 {
     color: #c77412; }
-  .style2 .title2 {
+  .style2 .gradient2 {
     text-align: center;
     background: -webkit-gradient(linear, left top, right bottom, from(#c77412), to(#905bfd));
     -webkit-background-clip: text;
@@ -76,12 +76,12 @@ a:hover article {
   background: #f9f9f9;
   font-family: 'Parisienne', cursive;
   padding: 3rem;
-  font-size: 2rem; }
+  font-size: 1.6rem; }
   .style3 h2 {
     color: #2b91f8; }
-  .style3 .title3 {
+  .style3 .gradient3 {
     text-align: center;
-    background: -webkit-gradient(linear, left top, right bottom, from(#0645e5), to(#acd3f9));
+    background: -webkit-gradient(linear, left top, right bottom, from(#0228dd), to(#8dc5f5));
     -webkit-background-clip: text;
     color: transparent; }
 
@@ -89,10 +89,10 @@ a:hover article {
   background: #fdfffd;
   font-family: 'Kaushan Script', cursive;
   padding: 3rem;
-  font-size: 2rem; }
+  font-size: 1.6rem; }
   .style4 h2 {
     color: #5eae4b; }
-  .style4 .title4 {
+  .style4 .gradient4 {
     text-align: center;
     background: -webkit-gradient(linear, left top, right bottom, from(#5eae4b), to(#c8fe94));
     -webkit-background-clip: text;
