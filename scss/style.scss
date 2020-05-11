@@ -124,6 +124,11 @@ a:hover article{
         -webkit-background-clip: text;
         color: transparent;
     }
+    .reverse{
+        background:-webkit-gradient(linear,left top,right bottom,from(#c8fe94),to(#5eae4b));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
 }
 
 

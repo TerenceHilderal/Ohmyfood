@@ -97,6 +97,10 @@ a:hover article {
     background: -webkit-gradient(linear, left top, right bottom, from(#5eae4b), to(#c8fe94));
     -webkit-background-clip: text;
     color: transparent; }
+  .style4 .reverse {
+    background: -webkit-gradient(linear, left top, right bottom, from(#c8fe94), to(#5eae4b));
+    -webkit-background-clip: text;
+    color: transparent; }
 
 .button {
   display: flex;
