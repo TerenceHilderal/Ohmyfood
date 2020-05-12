@@ -6,7 +6,7 @@ body{
 // MIXINS
 @mixin padding-fontsize{
     padding: 3rem;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 // HEADER
 header{
@@ -48,10 +48,13 @@ header{
    color: black;
 }
 
-a:hover article{
-    font-size: 220%;    
+
+
+a:hover>article>h2,a:hover>article>p,a:hover>article>span{
+    overflow: hidden;
     transition: 0.3s;
-    opacity: 0.6;
+    opacity: 0.7;
+    transform: scale(1.50);
 }
 
 
