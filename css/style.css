@@ -188,16 +188,17 @@ footer a:hover {
   .carte h4 {
     position: relative;
     text-align: justify; }
-  .carte h4::before {
+  .carte h4::after {
     margin: auto;
     content: '';
     position: absolute;
-    border-bottom: 3px solid #333;
     bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #333;
     width: 0%;
     background: currentColor;
     transition: 1s; }
-  .carte h4:hover::before {
+  .carte h4:hover::after {
     width: 100%; }
   .carte li {
     display: flex;

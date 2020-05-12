@@ -243,20 +243,22 @@ footer a:hover{
             position:relative;
             text-align: justify;
         }
-            h4::before {
-                margin:auto;
-                content: '';
-                position: absolute;
-                border-bottom: 3px solid #333;
-                bottom: 0;
-                width: 0%;
-                background: currentColor;
-                transition:1s;
-            }
-             
-               h4:hover::before {
-                width:100%;
-          }
+    
+        h4::after {
+            margin:auto;
+            content: '';
+            position: absolute;
+            bottom:0;
+            left: 0;
+            border-bottom: 3px solid #333;
+            width: 0%;
+            background: currentColor;
+            transition:1s;
+        }
+         
+        h4:hover::after {
+            width:100%;
+        }
         
         li {
             display: flex;
